@@ -36,6 +36,7 @@ function Terms({ onNext }: { onNext: (terms: ApplyValues['terms']) => void }) {
   )
 
   return (
+    
     <div>
       <Agreement>
         <Agreement.Title

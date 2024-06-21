@@ -12,7 +12,6 @@ interface TextProps {
     fontWeight? : CSSProperties['fontWeight']
     bold ? : boolean
 }   
-
 const Text = styled.span<TextProps>(({
     color = 'black', display, textAlign, fontWeight, bold
 })=>({

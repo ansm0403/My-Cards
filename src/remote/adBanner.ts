@@ -3,6 +3,7 @@ import { AdBanner, Card } from '@/model/card'
 import {collection, getDocs} from 'firebase/firestore'
 import { store } from './firebase'
 
+// advertisement banner
 export async function getAdBanners(){
     const adBannerSnapshot = await getDocs(collection(store, COLLECTIONS.ADBANNER))
     
