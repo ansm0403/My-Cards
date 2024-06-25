@@ -30,7 +30,8 @@ export const Button = styled.button<ButtonProps>({
     : undefined,
 ({ disabled }) =>
   disabled ?
-      css`
+      css
+      `
         opacity : 0.26;
         cursor : initial;
       `

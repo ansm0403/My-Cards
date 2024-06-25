@@ -3,7 +3,8 @@ import styled from "@emotion/styled";
 
 
 
-const Input = styled.input`
+const Input = styled.input
+`
     padding : 0 10px;
     font-size : 15px;
     height : 48px;

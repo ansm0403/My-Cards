@@ -37,7 +37,8 @@ export default function Alert({open, title, description, buttonLabel = "확인",
     )
 }
 
-const AlertContainer = styled.div`
+const AlertContainer = styled.div
+`
     position : absolute;
     left : 50%;
     top : 50%;
