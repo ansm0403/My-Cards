@@ -30,7 +30,6 @@ function Apply({ onSubmit }: { onSubmit: (applyValues: ApplyValues) => void }) {
 
     return JSON.parse(applied)
   })
-
   useEffect(() => {
     if (applyValues.step === 3) {
       localStorage.removeItem(storageKey)

@@ -21,7 +21,6 @@ const TextField = forwardRef<HTMLInputElement, TextFieldProps>(
             setFocused(false)
             onBlur?.(event)
         }
-
         return(
             <div>
                 {   
@@ -60,5 +59,4 @@ const TextField = forwardRef<HTMLInputElement, TextFieldProps>(
         )
     }
 )
-
 export default TextField

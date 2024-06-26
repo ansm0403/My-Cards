@@ -390,7 +390,6 @@ export const card_list = [
       },
     },
   ]
-  
   export const adBanners = [
     {
       title: 'Easy all 카드',

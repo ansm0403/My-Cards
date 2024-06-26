@@ -13,5 +13,4 @@ const Flex = styled.div<FlexProps>(({align, justify, direction})=>({
     justifyContent : justify,
     flexDirection : direction,
 }))
-
 export default Flex

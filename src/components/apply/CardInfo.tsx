@@ -18,7 +18,6 @@ function CardInfo({
     isMaster: false,
     isRf: false,
   })
-
   const { isHipass, isMaster, isRf } = cardInfoValues
 
   const handleButtonClick = useCallback((e: MouseEvent<HTMLButtonElement>) => {

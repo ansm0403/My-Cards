@@ -13,7 +13,8 @@ export default function AdBanners() {
     </Flex>
   )
 }
-const bannerContainerStyles = css`
+const bannerContainerStyles = css
+`
     padding : 16px;
     background-color : ${colors.grey};
     border-radius : 4px;
