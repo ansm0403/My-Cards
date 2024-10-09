@@ -4,6 +4,7 @@ export default function Dimmed({children} : {children : React.ReactNode}){
     return <Container>{children}</Container>
 }
 
+
 const Container = styled.div
 `
     position : fixed;

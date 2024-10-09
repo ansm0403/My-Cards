@@ -30,5 +30,4 @@ export const typographyMap = {
         line-height : 1.5;
 `,
 }
-
 export type Typography = keyof typeof typographyMap;

@@ -15,7 +15,6 @@ export const buttonColorMap = {
         color : ${colors.white};
     `,
 }
-
 export const buttonWeakMap = {
     primary : css`
         background-color : ${colors.white};

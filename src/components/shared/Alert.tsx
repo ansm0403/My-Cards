@@ -36,7 +36,6 @@ export default function Alert({open, title, description, buttonLabel = "확인",
         </Dimmed>
     )
 }
-
 const AlertContainer = styled.div
 `
     position : absolute;

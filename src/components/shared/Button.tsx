@@ -11,7 +11,6 @@ interface ButtonProps {
   full? : boolean;
   disabled? : boolean;
 }
-
 export const Button = styled.button<ButtonProps>({
   cursor : 'pointer',
   fontWeight : 'bold',

@@ -2,7 +2,6 @@ import { colors } from "@/styles/colorPalette";
 import styled from "@emotion/styled";
 
 
-
 const Input = styled.input
 `
     padding : 0 10px;

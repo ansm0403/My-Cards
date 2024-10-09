@@ -23,5 +23,4 @@ const Text = styled.span<TextProps>(({
 ({typography = 't5'})=> typographyMap[typography],
 )
 
-
 export default Text;

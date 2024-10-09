@@ -10,7 +10,6 @@ export const colorPalette = css`
         --grey : #9e9e9e;
     }
 `
-
 export const colors = {
     red : 'var(--red)', 
     blue : 'var(--blue)', 

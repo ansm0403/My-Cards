@@ -3761,10 +3761,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:*, @types/lodash@npm:^4":
+"@types/lodash@npm:*":
   version: 4.17.4
   resolution: "@types/lodash@npm:4.17.4"
   checksum: 10c0/0124c64cb9fe7a0f78b6777955abd05ef0d97844d49118652eae45f8fa57bfb7f5a7a9bccc0b5a84c0a6dc09631042e4590cb665acb9d58dfd5e6543c75341ec
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.17.7":
+  version: 4.17.7
+  resolution: "@types/lodash@npm:4.17.7"
+  checksum: 10c0/40c965b5ffdcf7ff5c9105307ee08b782da228c01b5c0529122c554c64f6b7168fc8f11dc79aa7bae4e67e17efafaba685dc3a47e294dbf52a65ed2b67100561
   languageName: node
   linkType: hard
 
@@ -9993,7 +10000,7 @@ __metadata:
     "@testing-library/react": "npm:^13.0.0"
     "@testing-library/user-event": "npm:^13.2.1"
     "@types/jest": "npm:^27.0.1"
-    "@types/lodash": "npm:^4"
+    "@types/lodash": "npm:^4.17.7"
     "@types/lodash.flatten": "npm:^4"
     "@types/node": "npm:^16.7.13"
     "@types/qs": "npm:^6.9.15"
@@ -10012,11 +10019,12 @@ __metadata:
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     react-infinite-scroll-component: "npm:^6.1.0"
-    react-intersection-observer: "npm:^9.10.2"
+    react-intersection-observer: "npm:^9.13.0"
     react-query: "npm:^3.39.3"
     react-router-dom: "npm:^6.23.1"
     react-scripts: "npm:5.0.1"
     recoil: "npm:^0.7.7"
+    swiper: "npm:9"
     typescript: "npm:^4.4.2"
     validator: "npm:^13.12.0"
     web-vitals: "npm:^2.1.0"
@@ -12203,16 +12211,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-intersection-observer@npm:^9.10.2":
-  version: 9.10.2
-  resolution: "react-intersection-observer@npm:9.10.2"
+"react-intersection-observer@npm:^9.13.0":
+  version: 9.13.0
+  resolution: "react-intersection-observer@npm:9.13.0"
   peerDependencies:
     react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 10c0/e2224de16ed5617a7e75f0644abebd5668f4ccc78e9a210ae4b0307d8f306719fce8a7e3e1a4aec0f815b954934028e6a9d14cd70e50f11a603e392dce0450a4
+  checksum: 10c0/7e446b763edc0d9e5642c03c0a151fa6e25fd91c7d004b8af918b0ec9a01f0c252909c13c6fbf95d331e7064bbe1d5668ed788610acab400ce38063d82f9e1b3
   languageName: node
   linkType: hard
 
@@ -13290,6 +13298,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ssr-window@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "ssr-window@npm:4.0.2"
+  checksum: 10c0/e91f690f42ab2d4e36577a631a9d7b9bd20864ab99c1394481f64c5a0ae6922165ac0a06228560c2ccdd4f68338e795f2fd3cc16fbf9bfcc9c561bb89eb237cd
+  languageName: node
+  linkType: hard
+
 "ssri@npm:^10.0.0":
   version: 10.0.6
   resolution: "ssri@npm:10.0.6"
@@ -13682,6 +13697,15 @@ __metadata:
   bin:
     svgo: bin/svgo
   checksum: 10c0/0741f5d5cad63111a90a0ce7a1a5a9013f6d293e871b75efe39addb57f29a263e45294e485a4d2ff9cc260a5d142c8b5937b2234b4ef05efdd2706fb2d360ecc
+  languageName: node
+  linkType: hard
+
+"swiper@npm:9":
+  version: 9.4.1
+  resolution: "swiper@npm:9.4.1"
+  dependencies:
+    ssr-window: "npm:^4.0.2"
+  checksum: 10c0/29feb1e92c344c32d24d7c852577b8b167816ec65bb486418816abbc8e1d6f50b3fb339780392ffa8ba91582508f804bab1e1ab3bd80d9d9b66fc323b6055445
   languageName: node
   linkType: hard
 

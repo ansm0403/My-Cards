@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/react", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:13.5.0"],\
           ["@types/jest", "npm:27.5.2"],\
-          ["@types/lodash", "npm:4.17.4"],\
+          ["@types/lodash", "npm:4.17.7"],\
           ["@types/lodash.flatten", "npm:4.4.9"],\
           ["@types/node", "npm:16.18.97"],\
           ["@types/qs", "npm:6.9.15"],\
@@ -55,11 +55,12 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:18.3.1"],\
           ["react-infinite-scroll-component", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:6.1.0"],\
-          ["react-intersection-observer", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:9.10.2"],\
+          ["react-intersection-observer", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:9.13.0"],\
           ["react-query", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:3.39.3"],\
           ["react-router-dom", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:6.23.1"],\
           ["react-scripts", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:5.0.1"],\
           ["recoil", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:0.7.7"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["validator", "npm:13.12.0"],\
           ["web-vitals", "npm:2.1.4"],\
@@ -6459,6 +6460,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-lodash-npm-4.17.4-3f78228325-0124c64cb9.zip/node_modules/@types/lodash/",\
         "packageDependencies": [\
           ["@types/lodash", "npm:4.17.4"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.17.7", {\
+        "packageLocation": "./.yarn/cache/@types-lodash-npm-4.17.7-2077805efb-40c965b5ff.zip/node_modules/@types/lodash/",\
+        "packageDependencies": [\
+          ["@types/lodash", "npm:4.17.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14046,7 +14054,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/react", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:13.5.0"],\
           ["@types/jest", "npm:27.5.2"],\
-          ["@types/lodash", "npm:4.17.4"],\
+          ["@types/lodash", "npm:4.17.7"],\
           ["@types/lodash.flatten", "npm:4.4.9"],\
           ["@types/node", "npm:16.18.97"],\
           ["@types/qs", "npm:6.9.15"],\
@@ -14065,11 +14073,12 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:18.3.1"],\
           ["react-infinite-scroll-component", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:6.1.0"],\
-          ["react-intersection-observer", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:9.10.2"],\
+          ["react-intersection-observer", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:9.13.0"],\
           ["react-query", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:3.39.3"],\
           ["react-router-dom", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:6.23.1"],\
           ["react-scripts", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:5.0.1"],\
           ["recoil", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:0.7.7"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["validator", "npm:13.12.0"],\
           ["web-vitals", "npm:2.1.4"],\
@@ -17321,17 +17330,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["react-intersection-observer", [\
-      ["npm:9.10.2", {\
-        "packageLocation": "./.yarn/cache/react-intersection-observer-npm-9.10.2-df4af16ac0-e2224de16e.zip/node_modules/react-intersection-observer/",\
+      ["npm:9.13.0", {\
+        "packageLocation": "./.yarn/cache/react-intersection-observer-npm-9.13.0-b28fc2e7cc-7e446b763e.zip/node_modules/react-intersection-observer/",\
         "packageDependencies": [\
-          ["react-intersection-observer", "npm:9.10.2"]\
+          ["react-intersection-observer", "npm:9.13.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:9.10.2", {\
-        "packageLocation": "./.yarn/__virtual__/react-intersection-observer-virtual-fa929e563b/0/cache/react-intersection-observer-npm-9.10.2-df4af16ac0-e2224de16e.zip/node_modules/react-intersection-observer/",\
+      ["virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:9.13.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-intersection-observer-virtual-e982a54744/0/cache/react-intersection-observer-npm-9.13.0-b28fc2e7cc-7e446b763e.zip/node_modules/react-intersection-observer/",\
         "packageDependencies": [\
-          ["react-intersection-observer", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:9.10.2"],\
+          ["react-intersection-observer", "virtual:225c02f2e351b2c81c93fd0657e9fa2550f42d3530f292f1de64eabca763738a1ae0011381e14cc0b92b8378db5408b976ec869fe3ae674d719ac42d447b6164#npm:9.13.0"],\
           ["@types/react", "npm:18.3.2"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["react", "npm:18.3.1"],\
@@ -18582,6 +18591,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ssr-window", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "./.yarn/cache/ssr-window-npm-4.0.2-01f9c0151e-e91f690f42.zip/node_modules/ssr-window/",\
+        "packageDependencies": [\
+          ["ssr-window", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ssri", [\
       ["npm:10.0.6", {\
         "packageLocation": "./.yarn/cache/ssri-npm-10.0.6-6b8eaec5ce-e5a1e23a40.zip/node_modules/ssri/",\
@@ -19024,6 +19042,16 @@ const RAW_RUNTIME_STATE =
           ["csso", "npm:4.2.0"],\
           ["picocolors", "npm:1.0.1"],\
           ["stable", "npm:0.1.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:9.4.1", {\
+        "packageLocation": "./.yarn/cache/swiper-npm-9.4.1-38d46d35a3-29feb1e92c.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:9.4.1"],\
+          ["ssr-window", "npm:4.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
