@@ -18,6 +18,7 @@ export default function AdBannerListAddButton() {
 
         alert("배너 리스트 추가완료")
     }
+    
   return (
     <Button onClick={handleButtonClick}>배너 리스트 추가하기</Button>
   )
