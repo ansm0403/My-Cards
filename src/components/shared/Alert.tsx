@@ -1,6 +1,7 @@
 import { colors } from "@/styles/colorPalette";
 import styled from "@emotion/styled";
-import { Button } from "./Button";
+import Button from "./Button";
+
 import Dimmed from "./Dimmed";
 import Flex from "./Flex";
 import Text from "./Text";

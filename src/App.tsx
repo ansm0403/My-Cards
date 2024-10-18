@@ -7,6 +7,9 @@ import ScrollToTop from "./components/shared/ScrollToTop";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import Navbar from "./components/shared/Navbar";
+import PrivateRoute from "./components/auth/PrivateRoute";
+import ApplyPage from "./pages/Apply";
+import ApplyDone from "./pages/ApplyDone";
 
 function App() {
   return (
@@ -17,9 +20,22 @@ function App() {
         <Route path="/" Component={Home}/>
         <Route path="test" Component={Test}/>
         <Route path="/card/:id" Component={CardPage}/>
-        <Route path="/signup" Component={Signin}/>
-        <Route path="/signin" Component={Signup}/>
-      </Routes>
+        <Route path="/signup" Component={Signup}/>
+        <Route path="/signin" Component={Signin}/>
+        <Route path="/apply/:id" element = {(
+          <PrivateRoute>
+            <ApplyPage />
+          </PrivateRoute>
+        )} />
+        <Route
+          path="/apply/done"
+          element={
+            <PrivateRoute>
+              <ApplyDone />
+            </PrivateRoute>
+          }
+        />
+      </Routes> 
     </BrowserRouter>
   );
 }

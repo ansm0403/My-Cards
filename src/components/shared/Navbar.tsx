@@ -7,8 +7,9 @@ import { colors } from '@styles/colorPalette'
 import Flex from '@shared/Flex'
 
 import { auth } from '@remote/firebase'
-import { Button } from './Button'
+
 import useUser from '@/hooks/useUser'
+import Button from './Button'
 
 function Navbar() {
   const location = useLocation()

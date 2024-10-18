@@ -3,7 +3,8 @@ import styled from '@emotion/styled'
 
 import { createPortal } from 'react-dom'
 import { colors } from '@styles/colorPalette'
-import { Button } from './Button'
+import Button from './Button'
+
 
 interface FixedBottomButtonProps {
   label: string

@@ -10,8 +10,9 @@ import Text from '@shared/Text'
 import { colors } from '@styles/colorPalette'
 
 import { ChangeEvent, useCallback, useMemo, useState } from 'react'
-import { Button } from '../shared/Button'
+
 import { FormValues } from '@/model/signin'
+import Button from '../shared/Button'
 
 
 function Form({ onSubmit }: { onSubmit: (formValues: FormValues) => void }) {

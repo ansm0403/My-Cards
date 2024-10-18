@@ -1,8 +1,9 @@
-import { Button } from "@shared/Button";
+
 import {store} from '@remote/firebase'
 import {card_list} from "@/mock/data"
 import {collection, doc, writeBatch} from 'firebase/firestore'
 import { COLLECTIONS } from "@constants";
+import Button from '../shared/Button';
 
 export default function CardListAddButton() {
 
