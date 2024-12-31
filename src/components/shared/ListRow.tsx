@@ -1,8 +1,8 @@
 import { css } from '@emotion/react'
 import Flex from './Flex'
 import Text from './Text'
-import Skeleton from './Skeleton'
 import Spacing from './Spacing'
+import SkeletonUI from './SkeletonUI'
 
 interface ListRowProps {
   left?: React.ReactNode
@@ -66,11 +66,11 @@ function ListRowSkeleton() {
         <ListRow.Texts
           title={
             <>
-              <Skeleton width={67} height={23} />
+              <SkeletonUI width={67} height={23} />
               <Spacing size={2} />
             </>
           }
-          subTitle={<Skeleton width={85} height={20} />}
+          subTitle={<SkeletonUI width={85} height={20} />}
         />
       </Flex>
       <IconArrowRight />

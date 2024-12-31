@@ -1,8 +1,9 @@
 import { useQuery } from 'react-query'
 import { useInView } from 'react-intersection-observer'
 
-import Skeleton from '@shared/Skeleton'
+
 import Spacing from '@shared/Spacing'
+import SkeletonUI from '../shared/SkeletonUI'
 
 export default function Review() {
   const { ref, inView } = useInView({
@@ -27,9 +28,9 @@ export default function Review() {
     <div ref={ref}>
       {isLoading ? (
         <>
-          <Skeleton width={30} height={10} />
+          <SkeletonUI width={30} height={10} />
           <Spacing size={3} />
-          <Skeleton width={30} height={10} />
+          <SkeletonUI width={30} height={10} />
         </>
       ) : (
         data.map((review) => <div>{review}</div>)
