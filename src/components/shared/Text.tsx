@@ -1,6 +1,6 @@
 import { Color, colors } from '@/styles/colorPalette'
 import { Typography, typographyMap } from '@/styles/typoGraphy'
-import React, { CSSProperties } from 'react'
+import { CSSProperties } from 'react'
 
 import styled from '@emotion/styled'
 
