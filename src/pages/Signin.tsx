@@ -46,7 +46,7 @@ function SigninPage() {
         })
       }
     },
-    [open],
+    [open, navigate],
   )
 
   return (

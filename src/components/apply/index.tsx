@@ -8,8 +8,6 @@ import { ApplyValues, APPLY_STATUS } from '@/model/apply'
 import useUser from '@/hooks/useUser'
 import BasicInfo from './BaseInfo'
 
-const LAST_STEP = 3
-
 function Apply({ onSubmit }: { onSubmit: (applyValues: ApplyValues) => void }) {
   const user = useUser()
   const { id } = useParams() as { id: string }

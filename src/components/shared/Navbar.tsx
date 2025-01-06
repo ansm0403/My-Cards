@@ -40,7 +40,7 @@ function Navbar() {
 
   return (
     <Flex justify="space-between" align="center" css={navbarContainerStyles}>
-      <Link to="/">홈</Link>
+      <Link to="/" css = {navbarHomeLinkStyles}>My Cards</Link>
       {renderButton()}
     </Flex>
   )
@@ -54,5 +54,13 @@ const navbarContainerStyles = css`
   z-index: 10;
   border-bottom: 1px solid ${colors.grey};
 `
+
+const navbarHomeLinkStyles = css`
+  text-decoration : none;
+  color : ${colors.blue};
+  font-weight : bold;
+  font-size : 1.2rem;
+`
+
 
 export default Navbar

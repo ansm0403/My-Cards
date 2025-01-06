@@ -1,5 +1,5 @@
 import { COLLECTIONS } from '@/constants'
-import { AdBanner, Card } from '@/model/card'
+import { AdBanner } from '@/model/card'
 import {collection, getDocs} from 'firebase/firestore'
 import { store } from './firebase'
 
